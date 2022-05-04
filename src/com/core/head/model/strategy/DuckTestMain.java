@@ -1,4 +1,4 @@
-package com.core.head.model;
+package com.core.head.model.strategy;
 
 import com.core.head.model.strategy.DecoyDuck;
 import com.core.head.model.strategy.RedheadDuck;
