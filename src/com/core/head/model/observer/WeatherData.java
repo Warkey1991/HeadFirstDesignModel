@@ -1,6 +1,6 @@
-package com.core.head.model.observer.display;
+package com.core.head.model.observer;
 
-import com.core.head.model.observer.display.interfa.Subject;
+import com.core.head.model.observer.interfa.Subject;
 
 import java.util.ArrayList;
 import java.util.List;

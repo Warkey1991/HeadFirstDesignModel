@@ -1,8 +1,8 @@
-package com.core.head.model.observer.display.impl;
+package com.core.head.model.observer.impl;
 
-import com.core.head.model.observer.display.interfa.DisplayElement;
-import com.core.head.model.observer.display.Observer;
-import com.core.head.model.observer.display.interfa.Subject;
+import com.core.head.model.observer.interfa.DisplayElement;
+import com.core.head.model.observer.Observer;
+import com.core.head.model.observer.interfa.Subject;
 
 /**
  * 显示最小、平均和最大的观测值， 需要实现Observer 接口，代表该对象可以作为观察者

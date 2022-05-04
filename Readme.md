@@ -61,6 +61,10 @@
 
 [https://www.cnblogs.com/java-my-life/archive/2012/05/10/2491891.html](https://www.cnblogs.com/java-my-life/archive/2012/05/10/2491891.html)
 
+
+
+
+
 # 观察者模式：
 首先我们从现实生活中举个例子,认识观察者模式：
 1. 报社的业务就是出版报纸。

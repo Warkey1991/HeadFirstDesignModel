@@ -1,8 +1,8 @@
-package com.core.head.model.observer.display.impl;
+package com.core.head.model.observer.impl;
 
-import com.core.head.model.observer.display.interfa.DisplayElement;
-import com.core.head.model.observer.display.Observer;
-import com.core.head.model.observer.display.interfa.Subject;
+import com.core.head.model.observer.interfa.DisplayElement;
+import com.core.head.model.observer.Observer;
+import com.core.head.model.observer.interfa.Subject;
 
 /**
  * 天气布告板---相当于每个电视台，都需要播报天气，他们都从国家气象局获取到天气信息，然后展示给观众

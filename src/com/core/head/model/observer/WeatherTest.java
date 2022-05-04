@@ -1,8 +1,8 @@
-package com.core.head.model.observer.display;
+package com.core.head.model.observer;
 
-import com.core.head.model.observer.display.impl.CurrentConditionDisplay;
-import com.core.head.model.observer.display.impl.StatisticsDisplay;
-import com.core.head.model.observer.display.impl.ThirdPartyDisplay;
+import com.core.head.model.observer.impl.CurrentConditionDisplay;
+import com.core.head.model.observer.impl.StatisticsDisplay;
+import com.core.head.model.observer.impl.ThirdPartyDisplay;
 
 public class WeatherTest {
     public static void main(String[] args) {

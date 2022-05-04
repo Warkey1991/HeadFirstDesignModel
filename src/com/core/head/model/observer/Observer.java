@@ -1,4 +1,4 @@
-package com.core.head.model.observer.display;
+package com.core.head.model.observer;
 
 /**
  * 观察者

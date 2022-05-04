@@ -1,6 +1,6 @@
-package com.core.head.model.observer.display.interfa;
+package com.core.head.model.observer.interfa;
 
-import com.core.head.model.observer.display.Observer;
+import com.core.head.model.observer.Observer;
 
 /**
  * 主题

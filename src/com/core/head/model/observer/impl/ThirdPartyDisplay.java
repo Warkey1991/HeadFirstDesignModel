@@ -1,8 +1,8 @@
-package com.core.head.model.observer.display.impl;
+package com.core.head.model.observer.impl;
 
-import com.core.head.model.observer.display.interfa.DisplayElement;
-import com.core.head.model.observer.display.Observer;
-import com.core.head.model.observer.display.interfa.Subject;
+import com.core.head.model.observer.interfa.DisplayElement;
+import com.core.head.model.observer.Observer;
+import com.core.head.model.observer.interfa.Subject;
 
 /**
  * 显示基于观测值的其他内容
