@@ -3,16 +3,14 @@
 #### 特点：策略模式属于对象行为模式，它通过对算法进行封装，把使用算法的责任和算法的实现分割开来，并委派给不同的对象对这些算法进行管理。
 
 #### 其类结构如下
-
+<img src="https://github.com/Warkey1991/HeadFirstDesignModel/blob/master/images/screenshot-20220504-101112.png"/>
 
 有三个角色：
 
 * **Context(环境角色)**: 持有一个指向Strategy的引用strategy,该引用指向的是Strategy 的实现类，这里用到了对象的多态特性。
 * **Strategy(抽象策略角色)**:Strategy 是用接口定义的，遵循面向接口编程的原则，此接口定义出所有具体策略类所需的接口方法。
 * **StrategyA(具体策略决策)**：包装了相关的算法和行为。
-
-
-![a09ce2d52c065dfa23388707fa5ec7a7.png](evernotecid://C2D45681-3940-498B-AAD6-F756F3B1B5E7/appyinxiangcom/39582949/ENResource/p62)
+<img src="https://github.com/Warkey1991/HeadFirstDesignModel/blob/master/images/screenshot-20220504-101057.png"/>
 
 在我们这个鸭子的例子中，基类为Duck === 环境角色，其持有一个FlyBehavior以及QuackBehavior 引用，通过set方法动态设置行为算法，使用那种行为算法由客户端决定。其Duck类无需关心其飞行、鸣叫的行为是什么样子的，只需要通过代理去执行不同的行为算法。
 
@@ -49,5 +47,7 @@
 
 ##### 参考文献：
 [http://c.biancheng.net/view/1378.html](http://c.biancheng.net/view/1378.html)
+
 [https://segmentfault.com/a/1190000040419861](https://segmentfault.com/a/1190000040419861)
+
 [https://www.cnblogs.com/java-my-life/archive/2012/05/10/2491891.html](https://www.cnblogs.com/java-my-life/archive/2012/05/10/2491891.html)
