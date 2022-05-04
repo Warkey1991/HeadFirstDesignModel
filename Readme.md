@@ -73,13 +73,13 @@
 ### 观察者模式定义：
 定义了对象之间的一对多依赖，这样一来，当一个对象状态改变时，它的所有依赖者都会收到通知并自动更新。
 
-![4b8ed000351db57fa78d37d5246c901d.png](evernotecid://C2D45681-3940-498B-AAD6-F756F3B1B5E7/appyinxiangcom/39582949/ENResource/p63)
+<img src="https://github.com/Warkey1991/HeadFirstDesignModel/blob/master/images/screenshot-20220504-155237.png"/>
 
 本文要讲的例子是天气预报和布告板， 天气预报的WeatherData 类相当于主题，布告板相当于观察者，主题有数据更新，依赖于主题的观察者就会收到通知。
-![066a742928699cd5fb366732e9b73a47.png](evernotecid://C2D45681-3940-498B-AAD6-F756F3B1B5E7/appyinxiangcom/39582949/ENResource/p64)
+<img src="https://github.com/Warkey1991/HeadFirstDesignModel/blob/master/images/screenshot-20220504-160618.png"/>
 实现一对多的关系---> 需要在这个主题中保存布告板对象的一个容器，这样，在收到数据更新的时候，能够通知所有观察者。
 由此，我们在WeatherData 中声明了一个集合observers:List<Observer>.针对观察者的操作，都要基于这个列表中的观察者。
-![773412b5d439bfa2035d7d928bae5801.png](evernotecid://C2D45681-3940-498B-AAD6-F756F3B1B5E7/appyinxiangcom/39582949/ENResource/p65)
+<img src="https://github.com/Warkey1991/HeadFirstDesignModel/blob/master/images/screenshot-20220504-162051.png"/>
 
 **观察者模式是一种对象行为型模式，**
 #### 其主要优点如下。
